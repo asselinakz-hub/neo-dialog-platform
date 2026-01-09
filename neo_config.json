@@ -1,1 +1,49 @@
-
+{
+  "potentials": {
+    "amethyst": { "ru": "Аметист" },
+    "sapphire": { "ru": "Сапфир" },
+    "heliodor": { "ru": "Гелиодор" },
+    "emerald": { "ru": "Изумруд" },
+    "garnet": { "ru": "Гранат" },
+    "ruby": { "ru": "Рубин" },
+    "amber": { "ru": "Янтарь" },
+    "shungite": { "ru": "Шунгит" },
+    "citrine": { "ru": "Цитрин" }
+  },
+  "spheres": {
+    "meanings": {
+      "ru": "Смыслы",
+      "potentials": ["amethyst", "sapphire", "heliodor"]
+    },
+    "emotions": {
+      "ru": "Эмоции",
+      "potentials": ["emerald", "garnet", "ruby"]
+    },
+    "matter": {
+      "ru": "Материя",
+      "potentials": ["amber", "shungite", "citrine"]
+    }
+  },
+  "types": {
+    "creator": { "ru": "Творец" },
+    "communicator": { "ru": "Коммуникатор" },
+    "manager": { "ru": "Управленец" }
+  },
+  "sphere_type_to_potential": {
+    "meanings": {
+      "creator": "sapphire",
+      "communicator": "heliodor",
+      "manager": "amethyst"
+    },
+    "emotions": {
+      "creator": "emerald",
+      "communicator": "garnet",
+      "manager": "ruby"
+    },
+    "matter": {
+      "creator": "amber",
+      "communicator": "shungite",
+      "manager": "citrine"
+    }
+  }
+}
